@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    background-image: url(./images/pexels-polina-tankilevitch-3873176.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: brown;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  input[type="number"] {
+      font-weight: normal;
+      display: block;
+      white-space: nowrap;
+      min-height: 1.7em;
+      padding: 0px 2px 1px;
+      width: 100%;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+  } 
+  @media only screen and (max-width: 600px) {
+    .container {
+      width: 90% !important;
+      margin-top: 100px !important;
+      margin-bottom: 100px !important;
+    }
+  
+    h1 {
+      font-size: 24px !important;
+    }
+  
+    label {
+      font-size: 14px !important;
+    }
+  
+    input[type="number"] {
+      font-size: 14px !important;
+    }
+  
+    select {
+      font-size: 14px !important;
+    }
+  
+    button {
+      font-size: 14px !important;
+    }
+  
+    .result {
+      font-size: 14px !important;
+    }
+  }
+  
